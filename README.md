@@ -1,8 +1,8 @@
 # IXI2020_STYV
 # Overview:
-<Project_name> is a learning platform that provide personalised courses and evolve with the growth of its users.
+<Project_name> is a learning platform that provide personalised courses and evolve with the growth of its users. If desired by the user, it can analyse the existing knowledge of the user by asking various related questions to the level chosen by the user. If the user passes the evaluation process, he/she can directly jump onto the next level which ultimately aids in saving the time of the user. Moreover the app provides the user with the doc file having adequate explanation along with plentiful of possible FAQs related to the lecture. The app also provides the option to switch between the instructors to comprehend the topic in a better way. 
 # Project Status: 
-In very early stage.
+In early stage.
 # Goals: 
 1. To provide a learning platform which evolves with the growth of its users.
 2. It will cater to the needs of students based on their current learning path.
@@ -15,7 +15,7 @@ In very early stage.
 # Requirement:
 Windows 10.
 # Installation and Setup:
-User: It is available at Windows Store <APP Link>.
+User: It is available at Windows Store.
 # Developers: 
   Clone or Download this Repository.
   Open With Visual Studio 2019.
@@ -25,7 +25,7 @@ User: It is available at Windows Store <APP Link>.
   If you have any issue please consult [Github issues](https://github.com/Microsoft/StoreBroker/issues)
   # Maintainer :
   **Team STYV.**
-     1. Shyam
-     2. Talha
-     3. Yash
-     4. Vishal.
+      1. Shyam
+      2. Talha
+      3. Yash Pandey
+      4. Vishal.
