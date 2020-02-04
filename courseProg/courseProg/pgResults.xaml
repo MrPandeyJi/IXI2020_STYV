@@ -1,0 +1,81 @@
+﻿<Page
+    x:Class="courseProg.pgResults"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:courseProg"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Loaded="Page_Loaded"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid Margin="50">
+            <StackPanel>
+                
+            <TextBlock Text="ANALYSIS COMPLETED" FontWeight="Bold" 
+                       FontSize="40"
+                       />
+            </StackPanel>
+            <StackPanel VerticalAlignment="Bottom">
+                
+                <StackPanel Orientation="Vertical" Margin="0,10,0,0" VerticalAlignment="Bottom">
+                    <TextBlock Text="Question Attempted :" FontSize="35" FontWeight="Bold"/>
+                    <TextBlock Text="15" FontSize="35" FontWeight="Bold" Name="tbQuesAttempted"/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Margin="0,30,0,20">
+                    <TextBlock Text="Correct Answer :" FontSize="35" FontWeight="Bold"/>
+                    <TextBlock Text="15" FontSize="35" FontWeight="Bold" Name="tbCorrectAnswer"/>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+        <Grid Background="#06B1AC"
+              Margin="50"
+              Grid.Column="1" RequestedTheme="Dark">
+            <StackPanel Padding="10">
+                
+            <TextBlock Text="&#xE73D;" 
+                       FontSize="55" 
+                       Margin="0,50,0,0"
+                       VerticalAlignment="Top"
+                       HorizontalAlignment="Center"
+                       FontFamily="segoe mdl2 assets" />
+                <TextBlock Text="We would like to recommend you the following course after analysis" 
+                           HorizontalAlignment="Center"
+                           TextWrapping="Wrap"
+                           Margin="0,20,0,0"
+                           FontSize="25"/>
+            </StackPanel>
+            <Button Content="Beginner Course" 
+                    Margin="0,0,0,30"
+                    Width="170"
+                    Name="btBeginner"
+                    Click="btBeginner_Click"
+                    Height="55"
+                    Background="#06C9C2"
+                    VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
+            <Button Content="Intermidiate Course" 
+                    Margin="0,0,0,30"
+                    Visibility="Collapsed"
+                    Width="170"
+                    Name="btIntermidiate"
+                    Click="btBeginner_Click"
+                    Height="55"
+                    Background="#06C9C2"
+                    VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
+            <Button Content="Advance Course" 
+                    Margin="0,0,0,30"
+                    Width="170"
+                    Visibility="Collapsed"
+                    Name="btAdvance"
+                    Click="btBeginner_Click"
+                    Height="55"
+                    Background="#06C9C2"
+                    VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
+        </Grid>
+    </Grid>
+</Page>
