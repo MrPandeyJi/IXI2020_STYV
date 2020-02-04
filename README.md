@@ -7,25 +7,25 @@ In very early stage.
 1. To provide a learning platform which evolves with the growth of its users.
 2. It will cater to the needs of students based on their current learning path.
 # Current Functionality: 
-*1. It offers three courses:* 
- **1. C++ 
- **2. C# 
- **3. SQL
-*2. It track the user thoroughout the course and recommend optimal suggestions.*         
+1. It offers three courses:
+    1. C++ 
+    2. C# 
+    3. SQL
+2. It track the user thoroughout the course and recommend optimal suggestions.         
 # Requirement:
 Windows 10.
 # Installation and Setup:
-User: It is available at Windows Store <LINK>.
+User: It is available at Windows Store <APP Link>.
 # Developers: 
   Clone or Download this Repository.
   Open With Visual Studio 2019.
   Universal Windows Platform (UWP) SDK is required.
   # Development And Contribution :
   Feel free to contribute but for making any major changes refer to maintainers.
-  If you have any issue please consult 
+  If you have any issue please consult [Github issues](https://github.com/Microsoft/StoreBroker/issues)
   # Maintainer :
-  **Team STYV.
-  Shyam
-  Talha
-  Yash
-  Vishal.
+  **Team STYV.**
+     1. Shyam
+     2. Talha
+     3. Yash
+     4. Vishal.
