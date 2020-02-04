@@ -15,8 +15,9 @@ In early stage.
 # Requirement:
 Windows 10.
 # Installation and Setup:
-User: It is available at Windows Store.
-# Developers: 
+## User: 
+It is available at Windows Store.
+## Developers: 
   Clone or Download this Repository.
   Open With Visual Studio 2019.
   Universal Windows Platform (UWP) SDK is required.
