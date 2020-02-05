@@ -39,6 +39,10 @@ namespace courseProg
             {
                 getResults();
                 getQuesInfo();
+                rb1.IsChecked = false;
+                rb2.IsChecked = false;
+                rb3.IsChecked = false;
+                rb4.IsChecked = false;
             }
             else
             {

@@ -55,6 +55,22 @@
                    VerticalAlignment="Top"
                    HorizontalAlignment="Center"
                    FontSize="30"/> 
+            <TextBlock Text="Take courses in C++ (C plus plus) programming to improve your skills." 
+                       FontSize="18"
+                       TextWrapping="Wrap"
+                       Margin="0,20,0,0"/>
+            <TextBlock Text="Begin programming with one of the most powerful programming languages that exists today, C++." 
+                       FontSize="18"
+                       TextWrapping="Wrap"
+                       Margin="0,10,0,0"/>
+            <TextBlock Text="Includes Coding Explanation, FAQs and lectures of different instructors." 
+                       FontSize="18"
+                       TextWrapping="Wrap"
+                       Margin="0,10,0,0"/>
+            <TextBlock Text="Learn C++ features from basic to more advanced such as inheritance and polymorphic functions" 
+                       FontSize="18"
+                       TextWrapping="Wrap"
+                       Margin="0,10,0,0"/>
             <Button Content="Take Course" Width="250" Height="60" FontSize="21" Background="Blue" HorizontalAlignment="Center" 
                     VerticalAlignment="Center" Margin="0,150,0,0"
                     Name="btTakeCourse" Click="btTakeCourse_Click"/>

@@ -54,10 +54,10 @@
                 <HyperlinkButton Content="Already Created? Click here"
                                  Name="hlpAlreadyCreated"
                                  Click="hlpAlreadyCreated_Click"
-                                 Foreground="White" Margin="25,0" />
+                                 Foreground="White" Margin="15,0" />
                  <Button Content="Next" 
                     VerticalAlignment="Bottom"
-                    Margin="00,0,0,0"
+                    Margin="00,5,0,20"
                     Name="btAddUser"
                     Background="#298BEE"
                     Width="500"
@@ -68,6 +68,7 @@
                     VerticalAlignment="Bottom"
                     Margin="00,20,0,20"
                     Name="btSkip"
+                    Visibility="Collapsed"
                     Background="#298BEE"
                     Width="500"
                     Click="btSkip_Click"
@@ -97,7 +98,7 @@
             <StackPanel Grid.Row="1" VerticalAlignment="Bottom" Visibility="{Binding ElementName=spAlreadyUser, Path=Visibility}">
                  <Button Content="Go Back" 
                     VerticalAlignment="Bottom"
-                    Margin="00,0,0,0"
+                    Margin="00,0,0,20"
                     Name="btGoBack"
                     Background="#298BEE"
                     Width="500"
@@ -108,7 +109,7 @@
                     VerticalAlignment="Bottom"
                     Margin="00,20,0,20"
                     Background="#298BEE"
-                    Width="500"
+                    Width="500" Visibility="Collapsed"
                     Click="btSkip_Click"
                     Height="50"/>
             </StackPanel>

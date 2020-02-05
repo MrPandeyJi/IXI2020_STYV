@@ -19,7 +19,7 @@
                    VerticalAlignment="Top"
                    HorizontalAlignment="Left"
                    FontSize="35"/> 
-            <TextBlock Text="SELECT COURSES" HorizontalAlignment="Center"
+            <TextBlock Text="COURSE" HorizontalAlignment="Center"
                        Margin="0,50,0,0"
                        FontSize="45"
                        FontWeight="SemiBold"/>
@@ -34,7 +34,7 @@
                 </Style>
             </StackPanel.Resources>
             <Button Content="C++" Name="btCplus" Click="btCplus_Click" />
-            <Button Content="C#" />
+            <Button Content="C#" Visibility="Collapsed" />
         
         </StackPanel>
         </StackPanel>

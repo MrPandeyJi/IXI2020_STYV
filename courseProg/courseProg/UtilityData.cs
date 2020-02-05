@@ -11,7 +11,7 @@ namespace courseProg
         public static dbClasses objCurrentUser = new dbClasses();
         public static classCourse objCurrentCourse = new classCourse(); 
         public static string dbname = "prepdb.db";
-        public static int currentCourse = 2;
+        public static int currentCourse = 1;
         public static int trackBeginner;
         public static int trackIntermidiate;
         public static int trackAdvances;

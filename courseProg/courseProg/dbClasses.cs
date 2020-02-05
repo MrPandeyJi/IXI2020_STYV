@@ -37,7 +37,7 @@ namespace courseProg
         public string Opt2;
         public string Opt3;
         public string Opt4;
-        public int q_type;
+        public int c_id;
     }
     public class classCourse
     {

@@ -80,7 +80,7 @@ namespace courseProg
                                                     opt2 varchar(50),
                                                     opt3 varchar(10),
                                                     opt4 varchar(50),
-                                                    q_type int
+                                                    c_id int
                                                     );"))
                         {
                             statement.Step();

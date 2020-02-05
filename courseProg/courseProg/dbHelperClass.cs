@@ -69,14 +69,39 @@ namespace courseProg
                             Opt2 = query[6].ToString(),
                             Opt3 = query[7].ToString(),
                             Opt4 = query[8].ToString(),
-                            q_type = Convert.ToInt32(query[9].ToString())
+                            c_id = Convert.ToInt32(query[9].ToString())
                         };
                     }
                 }
             }
             return objQuiz;
         }
-
+        public static ObservableCollection<classQuiz> getTestQuestions(ObservableCollection<classQuiz> objQuiz, int c_id)
+        {
+            using (var conn = new SQLiteConnection(dbname))
+            {
+                using (var query = conn.Prepare(string.Format(@"select * from quiz where c_id = {0};", c_id)))
+                {
+                    while (query.Step() == SQLiteResult.ROW)
+                    {
+                        objQuiz.Add(new classQuiz
+                        {
+                            q_id = Convert.ToInt32(query[0].ToString()),
+                            q_ques = query[1].ToString(),
+                            q_topic = Convert.ToInt32(query[2].ToString()),
+                            q_level = Convert.ToInt32(query[3].ToString()),
+                            correctOpt = query[4].ToString(),
+                            Opt1 = query[5].ToString(),
+                            Opt2 = query[6].ToString(),
+                            Opt3 = query[7].ToString(),
+                            Opt4 = query[8].ToString(),
+                            c_id = Convert.ToInt32(query[9].ToString())
+                        });
+                    }
+                }
+            }
+            return objQuiz;
+        }
         public static void getBeginQuest(ObservableCollection<classCourse> obcQuest)
         {
             using (var conn = new SQLiteConnection(dbname))
@@ -90,13 +115,13 @@ namespace courseProg
                             c_id = Convert.ToInt32(query[0].ToString()),
                             c_name = query[1].ToString(),
                             c_topic = Convert.ToInt32(query[2].ToString()),
-                            c_level = Convert.ToInt32(query[3].ToString())
-                            //c_desc = query[4].ToString(),
-                            //ytb_link1 = query[5].ToString(),
-                            //ytb_link2 = query[6].ToString(),
-                            //ytb_link3 = query[7].ToString(),
+                            c_level = Convert.ToInt32(query[3].ToString()),
+                            c_desc = query[7].ToString(),
+                            ytb_link1 = query[4].ToString(),
+                            ytb_link2 = query[5].ToString(),
+                            ytb_link3 = query[6].ToString(),
                             //c_exam = query[8].ToString(),
-                            //faq1 = query[9].ToString(),
+                            faq1 = query[9].ToString()
                             //faq2 = query[10].ToString(),
                             //faq3 = query[11].ToString()
                         });
