@@ -1,6 +1,6 @@
 # IXI2020_STYV
 # Overview:
-<Project_name> is a learning platform that provide personalised courses and evolve with the growth of its users. If desired by the user, it can analyse the existing knowledge of the user by asking various related questions to the level chosen by the user. If the user passes the evaluation process, he/she can directly jump onto the next level which ultimately aids in saving the time of the user. Moreover the app provides the user with the doc file having adequate explanation along with plentiful of possible FAQs related to the lecture. The app also provides the option to switch between the instructors to comprehend the topic in a better way. 
+eduLite is a learning platform that provide personalised courses and evolve with the growth of its users. If desired by the user, it can analyse the existing knowledge of the user by asking various related questions to the level chosen by the user. If the user passes the evaluation process, he/she can directly jump onto the next level which ultimately aids in saving the time of the user. Moreover the app provides the user with the doc file having adequate explanation along with plentiful of possible FAQs related to the lecture. The app also provides the option to switch between the instructors to comprehend the topic in a better way. 
 # Project Status: 
 In early stage.
 # Goals: 
